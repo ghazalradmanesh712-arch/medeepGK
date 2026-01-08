@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>خلاصه تعاملی پولیپ گوش</title>
+<style>
+  body {
+    font-family: Tahoma, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  h1 {
+    color: #2c3e50;
+  }
+  button {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  button:hover {
+    background-color: #3498db;
+  }
+  .content {
+    display: none;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-left: 4px solid #2980b9;
+  }
+</style>
+</head>
+<body>
+
+<h1>خلاصه تعاملی: پولیپ گوش</h1>
+
+<button onclick="toggleContent('definition')">تعریف پولیپ گوش</button>
+<div id="definition" class="content">
+  پولیپ گوش یک توده خوش‌خیم است که معمولاً از مخاط کانال گوش میانی یا خارجی ایجاد می‌شود و می‌تواند همراه با ترشح گوش، کم‌شنوایی یا احساس پری گوش باشد.
+</div>
+
+<button onclick="toggleContent('etiology')">علت‌ها</button>
+<div id="etiology" class="content">
+  <ul>
+    <li>التهاب مزمن گوش میانی (Chronic Otitis Media)</li>
+    <li>ترومای کانال گوش</li>
+    <li>آلرژی یا تحریک مزمن مخاط</li>
+    <li>کمتر شایع: تومورهای خوش‌خیم یا بدخیم</li>
+  </ul>
+</div>
+
+<button onclick="toggleContent('symptoms')">علائم شایع</button>
+<div id="symptoms" class="content">
+  <ul>
+    <li>ترشح گوش (معمولاً بدبو)</li>
+    <li>کم‌شنوایی</li>
+    <li>درد گوش خفیف</li>
+    <li>احساس پری یا فشار در گوش</li>
+  </ul>
+</div>
+
+<button onclick="toggleContent('diagnosis')">تشخیص</button>
+<div id="diagnosis" class="content">
+  <ul>
+    <li>معاینه با اوتوسکوپ</li>
+    <li>تست شنوایی (Audiometry)</li>
+    <li>در صورت شک: تصویربرداری CT یا MRI</li>
+  </ul>
+</div>
+
+<button onclick="toggleContent('treatment')">درمان</button>
+<div id="treatment" class="content">
+  <ul>
+    <li>برداشتن پولیپ با جراحی (Polypectomy)</li>
+    <li>درمان علت زمینه‌ای (مثل آنتی‌بیوتیک برای عفونت)</li>
+    <li>پیگیری پس از عمل برای جلوگیری از عود</li>
+  </ul>
+</div>
+
+<script>
+  function toggleContent(id) {
+    const content = document.getElementById(id);
+    content.style.display = content.style.display === 'block' ? 'none' : 'block';
+  }
+</script>
+
+</body>
+</html>
