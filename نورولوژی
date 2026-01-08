@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>نورولوژی</title>
+  <style>
+    body { font-family: Vazir, Arial, sans-serif; background:#f9f9f9; padding:20px; }
+    h1 { color:#2c3e50; }
+    p { color:#34495e; font-size:18px; }
+  </style>
+</head>
+<body>
+  <h1>بخش نورولوژی</h1>
+  <p>اینجا می‌تونی محتوا و طرح درس HTML خودت رو قرار بدی.</p>
+</body>
+</html>
